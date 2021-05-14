@@ -5,31 +5,28 @@ desc: Digital marketing consultant, speaker, educator, and advocate for inclusiv
 canonical: https://cooperhollmaier.com
 pagination:
   data: collections.post
-  size: 10
+  size: 3
   reverse: true
   alias: posts
 ---
-Hi, I'm Cooper Hollmaier. I have a passion for developing digital products that are fast, sustainable, and accessible for all.
-Current projects
+Hi, I'm <h1>Cooper Hollmaier</h1>. I have a passion for developing digital products that are fast, sustainable, and accessible for all.
+<h2>Current projects</h2>
 
 I support technical search engine optimization (SEO) at a large specialty outdoor retailer. When I'm not working, you'll find me writing articles, giving talks, tinkering with code, and getting outside.
 
-Articles
+<h2>Writing</h2>
 
-I often write down my thoughts about remote work, accessibility, SEO, and software engineering. My most recent article was: Moving Towards Accessible-First
-
-Talks
-
-I've spoken at a number of events in the past about technical SEO, content marketing, and digital marketing. You can find my latest decks on SpeakerDeck
-
-To hire me for your event, check out my speaker rider. 
-
-
+I often write down my thoughts about remote work, accessibility, SEO, and software engineering.
 {% for post in posts %}
   <article>
     <h3>
       <a href="{{ post.url | url }}">{{ post.data.title }}</a>
     </h3>
-    <time datetime="{{ post.date | dateIso }}">{{ post.date | dateReadable }}</time>
   </article>
 {% endfor %}
+
+<h2>Talks</h2>
+
+I've spoken at a number of events in the past about technical SEO, content marketing, and digital marketing.
+
+
