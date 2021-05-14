@@ -3,12 +3,28 @@
 <head> 
   <meta charset="utf-8"> 
   <meta name="viewport" content="width=device-width, initial-scale=1" /> 
-  <title>Eleventy Blog</title> 
+  {% if ignore %}<meta name="robots" content="noindex"/>{% endif %}
+  <title>{{ title }}</title>
+  <meta name="description" content="{{ desc }}">
+  <link rel="canonical" href="{{ canonical }}">
+  <meta name="author" content="Cooper Hollmaier">
+  <meta property="og:title" content="{{ title }}">
+  <meta property="og:description" content="{{ desc }}">
+  <meta property="og:type" content="{{ type }}">
+  <meta property="og:image" content="{{ hero }}"/>
+  <meta property="og:locale" content="en_US" />
+  <meta name="twitter:title" content="{{ title }}">
+  <meta name="twitter:description" content="{{ desc }}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@CooperHollmaier">
+  <meta name="twitter:url" content="{{ canonical }}">
+  <meta name="twitter:image" content="{{ hero }}">
+  <meta name="twitter:creator" content="@CooperHollmaier">
 </head> 
 <body> 
   <header>
     Site Header
-    <a href="/About">About</a>
+    <a href="/about">About</a>
   </header> 
   <main> 
     {{ content | safe }}
