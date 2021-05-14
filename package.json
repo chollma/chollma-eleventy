@@ -1,0 +1,22 @@
+{
+  "name": "chollma-eleventy",
+  "version": "1.0.0",
+  "description": "Personal website rebuilt using eleventy",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chollma/chollma-eleventy.git"
+  },
+  "author": "Cooper Hollmaier",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chollma/chollma-eleventy/issues"
+  },
+  "homepage": "https://github.com/chollma/chollma-eleventy#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1"
+  }
+}
