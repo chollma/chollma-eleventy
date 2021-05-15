@@ -9,24 +9,23 @@ pagination:
   reverse: true
   alias: posts
 ---
-Hi, I'm <h1>Cooper Hollmaier</h1>. I have a passion for developing digital products that are fast, sustainable, and accessible for all.
-<h2>Current projects</h2>
-
-I support technical search engine optimization (SEO) at a large specialty outdoor retailer. When I'm not working, you'll find me writing articles, giving talks, tinkering with code, and getting outside.
-
-<h2>Writing</h2>
-
-I often write down my thoughts about remote work, accessibility, SEO, and software engineering.
-{% for post in posts %}
-  <article>
+<section>
+  <p>Hi, I'm <h1>Cooper Hollmaier</h1>. I have a passion for developing digital products that are fast, sustainable, and accessible for all.</p>
+</section>
+<section>
+  <h2>Current projects</h2>
+    <p>I support technical search engine optimization (SEO) at a large specialty outdoor retailer. When I'm not working, you'll find me writing articles, giving talks, tinkering with code, and getting outside.</p>
+</section>
+<section>
+  <h2>Writing</h2>
+    <p>I often write down my thoughts about remote work, accessibility, SEO, and software engineering.</p>
+  {% for post in posts %}<article>
     <h3>
       <a href="{{ post.url | url }}">{{ post.data.title }}</a>
     </h3>
-  </article>
-{% endfor %}
-
+  </article>{% endfor %}
+</section>
+<section>
 <h2>Talks</h2>
-
-I've spoken at a number of events in the past about technical SEO, content marketing, and digital marketing.
-
-
+  <p>I've spoken at a number of events in the past about technical SEO, content marketing, and digital marketing.</p>
+</section>
