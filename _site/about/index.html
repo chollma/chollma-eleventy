@@ -20,10 +20,11 @@
   <meta name="twitter:url" content="https://cooperhollmaier.com/about/">
   <meta name="twitter:image" content="">
   <meta name="twitter:creator" content="@CooperHollmaier">
+  <link rel="stylesheet" href="\css\styles.css">
 </head> 
 <body> 
   <header>
-    <a href="#main-content">Skip to main content</a>
+    <a class="sr-only" href="#main-content">Skip to main content</a>
     <a href="/">Home</a>
     <a href="/about/">About</a>
     <a href="/contact/">Contact</a>
@@ -34,12 +35,30 @@
     <h1>About this blog</h1>
 <p>This is my special place on the big World Wide Web</p>
 
+    
   </main> 
-  <footer>
-    <a href="#top">Top</a>
+  <footer class="footer">
+  <a href="#top">Top</a>
+    <a class="footer__logo" href="#">
+      <img src=""/>
+    </a>
+    <div class="footer__social">
+      <a href="https://twitter.com/CooperHollmaier">Twitter</a>
+      <a href="https://www.linkedin.com/in/cooperhollmaier">LinkedIn</a>
+      <a href="https://github.com/chollma">Github</a>
+      <a href="https://dev.to/chollma">Dev.to</a>
+    </div>
+    <div class="footer__legal">
     <p>&copy; 2021 by Cooper Hollmaier</p>
+    </div>
+    <div class="footer__statements">
     <a href="/privacy/">Privacy</a>
     <a href="/accessibility/">Accessibility</a>
+    </div>
+
+    
+    
+   
   </footer> 
 </body> 
 </html>

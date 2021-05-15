@@ -20,10 +20,11 @@
   <meta name="twitter:url" content="https://cooperhollmaier.com/post/beneath-the-surface-visual-disabilities/">
   <meta name="twitter:image" content="">
   <meta name="twitter:creator" content="@CooperHollmaier">
+  <link rel="stylesheet" href="\css\styles.css">
 </head> 
 <body> 
   <header>
-    <a href="#main-content">Skip to main content</a>
+    <a class="sr-only" href="#main-content">Skip to main content</a>
     <a href="/">Home</a>
     <a href="/about/">About</a>
     <a href="/contact/">Contact</a>
@@ -96,12 +97,30 @@
 <h3>Conclusion</h3>
 <p>Today's world dominates us with visual representations of information. It's important that in our quest to capture attention and ratings, we don't leave others behind. Building accessible solutions isn't a choice to make but rather a persistent necessity. As you read the above paragraphs, did opportunities to be more intentional and inclusive come to mind? Becoming more aware of our impact, in our designs, or ideas, and own thinking, has the potential to change the world for many people in a profound way.</p>
 
+    
   </main> 
-  <footer>
-    <a href="#top">Top</a>
+  <footer class="footer">
+  <a href="#top">Top</a>
+    <a class="footer__logo" href="#">
+      <img src=""/>
+    </a>
+    <div class="footer__social">
+      <a href="https://twitter.com/CooperHollmaier">Twitter</a>
+      <a href="https://www.linkedin.com/in/cooperhollmaier">LinkedIn</a>
+      <a href="https://github.com/chollma">Github</a>
+      <a href="https://dev.to/chollma">Dev.to</a>
+    </div>
+    <div class="footer__legal">
     <p>&copy; 2021 by Cooper Hollmaier</p>
+    </div>
+    <div class="footer__statements">
     <a href="/privacy/">Privacy</a>
     <a href="/accessibility/">Accessibility</a>
+    </div>
+
+    
+    
+   
   </footer> 
 </body> 
 </html>
