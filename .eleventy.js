@@ -3,6 +3,8 @@ const moment = require("moment");
 moment.locale("en");
 
 module.exports = function (eleventyConfig) {
+  eleventyConfig.addPassthroughCopy("assets");
+
   eleventyConfig.addFilter("dateIso", (date) => {
     return moment(date).toISOString();
   });

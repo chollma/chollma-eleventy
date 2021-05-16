@@ -9,24 +9,50 @@ pagination:
   reverse: true
   alias: posts
 ---
-<section>
-  <p>Hi, I'm <h1>Cooper Hollmaier</h1>. I have a passion for developing digital products that are fast, sustainable, and accessible for all.</p>
-</section>
-<section>
-  <h2>Current projects</h2>
-    <p>I support technical search engine optimization (SEO) at a large specialty outdoor retailer. When I'm not working, you'll find me writing articles, giving talks, tinkering with code, and getting outside.</p>
-</section>
-<section>
-  <h2>Writing</h2>
-    <p>I often write down my thoughts about remote work, accessibility, SEO, and software engineering.</p>
-  {% for post in posts %}<article>
-    <h3>
-      <a href="{{ post.url | url }}">{{ post.data.title }}</a>
-    </h3>
-  </article>{% endfor %}
-</section>
+ <div class="home__column">
+    <div class="home__top">
+        <div class="home__subhead">
+            <img class="home__image" src="/assets/img/cooper-hollmaier.jpeg" />
+        </div>
+        <div class="home__head">
+            <h1 class="home__heading home__heading--primary">
+                Cooper Hollmaier
+            </h1>
+        </div>
+    </div>
+    <div class="home__body">
+        <div class="home__byline">
+            <p>Hi, I'm <span class="home__byline--bold">Cooper Hollmaier</span>. I have a passion for developing digital products that are fast, sustainable, and accessible for all.</p>
+        </div>
+        <h2 class="home__heading home__heading--secondary">
+            Current projects
+        </h2>
+        <p>
+            I support technical search engine optimization (SEO) at a large specialty outdoor retailer. When I'm not working, you'll find me writing
+            <a href="/writing/">articles</a>, giving <a href="/talks/">talks</a>, tinkering with code and getting outside.
+        </p>
+        <p></p>
+        <h2 class="home__heading home__heading--secondary">Articles</h2>
+        <p>
+            I often write down my thoughts about remote work, accessibility, SEO, and software engineering.
+        </p>
+        {% for post in posts %}
+        <article>
+            <h3>
+                <a href="{{ post.url | url }}">{{ post.data.title }}</a>
+            </h3>
+        </article>
+        {% endfor %}
 
-<h2>Talks</h2>
-  <p>I've spoken at a number of events in the past about technical SEO, content marketing, and digital marketing.</p>
-</section>
+        <h2 class="home__heading home__heading--secondary">Talks</h2>
+        <p>
+            I've spoken at a number of events in the past about technical SEO, content marketing, and digital marketing. You can find my latest decks on
+            <a href="https://speakerdeck.com/chollma">SpeakerDeck</a>
+        </p>
+        <p>
+            To hire me for your event, check out my
+            <a href="/talks/">speaker rider</a>.
+        </p>
+    </div>
 </div>
+<section></section>
