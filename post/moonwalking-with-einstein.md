@@ -1,5 +1,4 @@
 ---
-layout: base-layout.njk
 title: Moonwalking with Einstein
 desc: In modern times, we're rewarded for our ability to navigate an ever expanding web of information systems and technologies.
 canonical: https://cooperhollmaier.com/post/walking-with-einstein/

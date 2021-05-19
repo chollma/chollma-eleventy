@@ -1,5 +1,4 @@
 ---
-layout: base-layout.njk
 title: Getting Started with Python
 desc: Whether you're a software engineer, data scientist, or someone who wants to make tedious tasks easy, Python might be the programming language you've been dreaming of.
 canonical: https://cooperhollmaier.com/post/getting-started-with-python/

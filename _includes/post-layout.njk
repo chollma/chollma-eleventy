@@ -5,3 +5,32 @@ layout: base-layout.njk
 <main>
   {{ content | safe }}
 </main>
+{% set absoluteUrl = env.base.site + (page.url | replace('.html', '')) %}
+<script type="application/ld+json">
+ {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "{{ absoluteUrl }}"
+    },
+      "headline": "{{ title }}",
+      "image": [
+        "{{ env.base.img }}cooper-hollmaier.jpeg"
+       ],
+      "datePublished": "{{ date }}",
+      "dateModified": "{{ date }}",
+      "author": {
+        "@type": "Person",
+        "name": "Cooper Hollmaier"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Cooper Hollmaier",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "{{ env.base.img }}cooper-hollmaier.jpeg"
+        }
+      }
+    }
+</script>

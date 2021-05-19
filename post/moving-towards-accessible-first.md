@@ -1,5 +1,4 @@
 ---
-layout: base-layout.njk
 title: Moving Towards Accessible First
 desc: I think we take our own experiences for granted. We assume that our friends have heard the latest soundbite.
 canonical: https://cooperhollmaier.com/post/moving-towards-accessible-first/

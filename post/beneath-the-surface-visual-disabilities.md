@@ -1,5 +1,4 @@
 ---
-layout: base-layout.njk
 title: Beneath the Surface
 desc: The more you learn about people with disabilities, the more you too can be an advocate for change.
 canonical: https://cooperhollmaier.com/post/beneath-the-surface-visual-disabilities/
