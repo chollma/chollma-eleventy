@@ -1,6 +1,107 @@
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<sitemap>
-  <loc></loc>
-  <lastmod></lastmod>
-</sitemap>
-</sitemapindex>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  
+    <url>
+      <loc> https://localhost:8080/post/getting-started-with-python/</loc>
+      <lastmod>2005-01-01</lastmod>
+  
+  </url>
+  
+    <url>
+      <loc> https://localhost:8080/post/building-a-simple-program/</loc>
+      <lastmod>2005-01-01</lastmod>
+  
+  </url>
+  
+    <url>
+      <loc> https://localhost:8080/post/talking-about-disability/</loc>
+      <lastmod>2005-01-01</lastmod>
+  
+  </url>
+  
+    <url>
+      <loc> https://localhost:8080/talk/hello-world/</loc>
+      <lastmod>2005-01-01</lastmod>
+  
+  </url>
+  
+    <url>
+      <loc> https://localhost:8080/post/beneath-the-surface-visual-disabilities/</loc>
+      <lastmod>2005-01-01</lastmod>
+  
+  </url>
+  
+    <url>
+      <loc> https://localhost:8080/post/moving-towards-accessible-first/</loc>
+      <lastmod>2005-01-01</lastmod>
+  
+  </url>
+  
+    <url>
+      <loc> https://localhost:8080/post/moonwalking-with-einstein/</loc>
+      <lastmod>2005-01-01</lastmod>
+  
+  </url>
+  
+    <url>
+      <loc> https://localhost:8080/README/</loc>
+      <lastmod>2005-01-01</lastmod>
+  
+  </url>
+  
+    <url>
+      <loc> https://localhost:8080/about/</loc>
+      <lastmod>2005-01-01</lastmod>
+  
+  </url>
+  
+    <url>
+      <loc> https://localhost:8080/</loc>
+      <lastmod>2005-01-01</lastmod>
+  
+  </url>
+  
+    <url>
+      <loc> https://localhost:8080/talks/</loc>
+      <lastmod>2005-01-01</lastmod>
+  
+  </url>
+  
+    <url>
+      <loc> https://localhost:8080/writing/</loc>
+      <lastmod>2005-01-01</lastmod>
+  
+  </url>
+  
+    <url>
+      <loc> https://localhost:8080/contact/</loc>
+      <lastmod>2005-01-01</lastmod>
+  
+  </url>
+  
+    <url>
+      <loc> https://localhost:8080/privacy/</loc>
+      <lastmod>2005-01-01</lastmod>
+  
+  </url>
+  
+    <url>
+      <loc> https://localhost:8080/accessibility/</loc>
+      <lastmod>2005-01-01</lastmod>
+  
+  </url>
+  
+    <url>
+      <loc> https://localhost:8080/robots.txt</loc>
+      <lastmod>2005-01-01</lastmod>
+  
+  </url>
+  
+    <url>
+      <loc> https://localhost:8080/sitemap.xml</loc>
+      <lastmod>2005-01-01</lastmod>
+  
+  </url>
+</urlset> 
+
