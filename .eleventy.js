@@ -1,8 +1,11 @@
 const moment = require("moment");
+const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 
 moment.locale("en");
 
 module.exports = function (eleventyConfig) {
+  eleventyConfig.addPlugin(eleventyNavigationPlugin);
+
   eleventyConfig.addPassthroughCopy("assets");
 
   eleventyConfig.addFilter("dateIso", (date) => {

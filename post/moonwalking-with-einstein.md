@@ -5,8 +5,6 @@ canonical: https://cooperhollmaier.com/post/walking-with-einstein/
 date: 2021-01-17
 ---
 
-# Moonwalking with Einstein
-
 Last year was something.
 
 We saw the true nature of our country come into sharp undeniable focus. Systemic racism, public health, and polarization on a grand scale were just some of the things that demanded my attention more than my goal to read 50 books in 2020. I'm not mad about failing to meet my goal. I look back though, to try to remember the substance I read, and my memory fails me.

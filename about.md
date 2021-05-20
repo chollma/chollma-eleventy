@@ -16,6 +16,6 @@ I have an insatiable desire to learn more about myself, people, and the environm
 on the couch with a book on surveillance capitalism, exploring the trails and peaks of Washington, or competing in a trivia night
 over drinks with friends, I'm always itching for the next thing.
 
-Some would describe as easy-going, others as a perpetual skeptic. I want to try new things, fail hard, and make real change a reality.
+Some would describe me as easy-going, others as a perpetual skeptic. I want to try new things, fail hard and make real change a reality.
 
 </section>

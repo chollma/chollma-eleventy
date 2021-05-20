@@ -5,8 +5,6 @@ canonical: https://cooperhollmaier.com/post/building-a-simple-program/
 date: 2020-09-12
 ---
 
-# Building a Simple Program
-
 This article is the sequel to [Getting Started with Python.](https://cooperhollmaier.com/article/getting-started-python)
 
 Assuming you read the article above, you should now understand how to install the latest version of Python on your computer. You should also have some basic knowledge about how an Integrated Development Environment (IDE) works. Now let's put some of the building blocks we learned together and solve a real problem with a program we'll write below.

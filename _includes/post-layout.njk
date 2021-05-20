@@ -1,9 +1,32 @@
 ---
 layout: base-layout.njk
 ---
-<section class="column">
+<div class="post__column">
+<div class="post__top">
+<div class="post__subhead">
+  Subheading for this article
+  </div>
+  <div class="post__heading">
+    <h1>{{ title }}</h1>
+  </div>
+  <div class="post__byline">
+    By
+    Cooper Hollmaier
+  </span>
+  <span class="post__topchim">
+    |
+  </span>
+  <span class="post__dateline">
+    January 17, 2021 • 3 min read
+  </span>
+  </div>
+  <div class="post__hero">
+ <img src="https://via.placeholder.com/350x150"/>
+ </div>
  {{ content | safe }}
-</section>
+ </div>
+ 
+</div>
 {% set absoluteUrl = env.base.site + (page.url | replace('.html', '')) %}
 <script type="application/ld+json">
  {
