@@ -3,7 +3,6 @@ title: Building a Simple Program
 desc: Now let's put some of the building blocks we learned together and solve a real problem with a program we'll write below.
 canonical: https://cooperhollmaier.com/post/building-a-simple-program/
 date: 2020-09-12
-tags: ["post"]
 ---
 
 # Building a Simple Program

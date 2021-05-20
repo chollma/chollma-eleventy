@@ -1,17 +1,22 @@
 ---
 layout: false
+ignore: true
 permalink: sitemap.xml
 ---
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-{# {{ collections.all | log }} #}
-{%- for item in collections.all %}
-  {% if not item.data.ignore %}
-    <url>
-      <loc> {{env.base.site}}{{ item.url | replace('.html', '') }}</loc>
-      <lastmod>2005-01-01</lastmod>
-  {% endif %}
-  </url>
-{%- endfor %}
-</urlset> 
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   <sitemap>
+      <loc>{{env.base.site}}/sitemap-pages.xml</loc>
+      <lastmod>{{ item.date | dateIso }}</lastmod>
+   </sitemap>
+   <sitemap>
+      <loc>{{env.base.site}}/sitemap-posts.xml</loc>
+      <lastmod>{{ item.date | dateIso }}</lastmod>
+   </sitemap>
+     <sitemap>
+      <loc>{{env.base.site}}/sitemap-talks.xml</loc>
+      <lastmod>{{ item.date | dateIso }}</lastmod>
+   </sitemap>
+
+</sitemapindex>
 

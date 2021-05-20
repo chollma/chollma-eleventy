@@ -3,7 +3,6 @@ title: Talking about Disability
 desc: I look out at the world, and I care deeply about making it a more accessible and equitable place.
 canonical: https://cooperhollmaier.com/post/talking-about-disability/
 date: 2020-10-17
-tags: ["post"]
 ---
 
 # Talking about Disability
