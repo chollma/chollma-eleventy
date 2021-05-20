@@ -6,6 +6,8 @@ desc: Hire me to contribute to your next conference, webinar, or podcast!
 canonical: https://cooperhollmaier.com/talks/
 ---
 
+<section class="column">
+
 # Talks
 
 I love sharing the lessons I've learned, the knowledge I've gained, and mentoring others looking to start a career in search engine optimization, digital marketing, communications, or a related field.
@@ -36,3 +38,5 @@ Before considering me as a contributor, please note the following guidelines bel
 ## Final Thoughts
 
 I really appreciate you taking the time to read through these points. I list these out because I want to speak at events that are inclusive, accessible, and represent the diverse perspectives around us. If you have any questions or disagree with any of the information above, please reach out and provide that feedback.
+
+</section>

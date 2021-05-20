@@ -11,6 +11,7 @@ pagination:
   alias: posts
 ---
 
+<section class="column">
 <h1>Writing</h1>
 {% for post in posts %}
   <article>
@@ -20,3 +21,4 @@ pagination:
     <time datetime="{{ post.date | dateIso }}">{{ post.date | dateReadable }}</time>
   </article>
 {% endfor %}
+</section>

@@ -1,10 +1,9 @@
 ---
 layout: base-layout.njk
 ---
-
-<main>
-  {{ content | safe }}
-</main>
+<section class="column">
+ {{ content | safe }}
+</section>
 {% set absoluteUrl = env.base.site + (page.url | replace('.html', '')) %}
 <script type="application/ld+json">
  {
