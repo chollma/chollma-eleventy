@@ -13,12 +13,18 @@ pagination:
 
 # Writing
 
+<section class="cards">
 {% for post in posts %}
 
-  <article>
-    <h3>
-      <a href="{{ post.url | url }}">{{ post.data.title }}</a>
-    </h3>
-    <time datetime="{{ post.date | dateIso }}">{{ post.date | dateReadable }}</time>
+<article class="card">
+<a href="{{ post.url | url }}">
+    <img src="https://via.placeholder.com/300x200" alt="Sample photo">
+    <div class="text">
+      <h3>{{ post.data.title }}</h3>
+      <time datetime="{{ post.date | dateIso }}">{{ post.date | dateReadable }}</time>
+    </div>
+    </a>
   </article>
+  
 {% endfor %}
+</section>
