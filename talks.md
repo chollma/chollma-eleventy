@@ -17,14 +17,16 @@ I love sharing the lessons I've learned, the knowledge I've gained, and mentorin
 
 If you are looking for a contributor, please take note of my speaker rider below. You can reach out about hiring me on Twitter or send me an email.
 
-## Past Presentations
+## Past Talks
 
 {% for talk in talks %}
 
   <article>
-    <h3>
-      <a href="{{ talk.url | url }}">{{ talk.data.title }}</a>
-    </h3>
+  <ul>
+  <li>
+  <a href="{{ talk.url | url }}">{{ talk.data.title }}</a> ({{ talk.date | dateReadable }})
+  </li>
+</ul>
   </article>
 {% endfor %}
 
