@@ -6,8 +6,6 @@ desc: We never share, sell, or distribute your information to anyone. It's for i
 canonical: https://cooperhollmaier.com/privacy/
 ---
 
-<section class="column">
-
 # Privacy Statement
 
 I take privacy very seriously and believe you have the right to a secure and transparent experience. I've provided some notes on privacy below.
@@ -25,5 +23,3 @@ You can opt out of your subscription at any time using the unsubscribe links in 
 ## Final thoughts
 
 The content on this website is pretty straight forward, with a focus on written content. I may decide to use some 3rd-party resources and will include any relevant privacy policies for these services here.
-
-</section>

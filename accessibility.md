@@ -6,8 +6,6 @@ desc: I believe in creating accessible and inclusive experiences. Learn more abo
 canonical: https://cooperhollmaier.com/accessibility/
 ---
 
-<section class="column">
-
 # Accessibility Statement
 
 I'm committed to ensuring that everyone visting CooperHollmaier.com feels welcome and included. I am continually improving the user experience for everyone, and applying the relevant accessibility standards.
@@ -21,5 +19,3 @@ The guidelines outline 3 levels of web accessibility (A, AA, and AAA). My goal i
 ## How am I doing?
 
 I've only just begun (as of December 2020) and am working to make improvements as time allows. If you have any issues accessing my content, please feel free to send me an email.
-
-</section>
