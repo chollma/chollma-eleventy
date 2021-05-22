@@ -258,8 +258,11 @@ header {
   padding: 0.75rem;
   justify-content: space-between;
 }
-.logo {
+header a {
   color: #405e58;
+  text-decoration: none;
+}
+.logo {
   font-size: 4rem;
   font-weight: 700;
   font-family: raleway;
@@ -273,10 +276,11 @@ nav {
   border-bottom: 1px solid black;
   text-transform: uppercase;
   text-align: center;
+  align-self: stretch;
 }
 nav a {
   padding: 0 0.3rem 0 0.3rem;
-  margin: 1rem;
+  color: black;
   text-decoration: none;
   font-family: eb-garamond, serif;
 }
