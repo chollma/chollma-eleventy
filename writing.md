@@ -11,8 +11,10 @@ pagination:
   alias: posts
 ---
 
-<h1>Writing</h1>
+# Writing
+
 {% for post in posts %}
+
   <article>
     <h3>
       <a href="{{ post.url | url }}">{{ post.data.title }}</a>

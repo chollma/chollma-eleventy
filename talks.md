@@ -4,6 +4,11 @@ tags: ["page"]
 title: Talks | Cooper Hollmaier
 desc: Hire me to contribute to your next conference, webinar, or podcast!
 canonical: https://cooperhollmaier.com/talks/
+pagination:
+  data: collections.talk
+  size: 3
+  reverse: true
+  alias: talks
 ---
 
 # Talks
@@ -13,6 +18,15 @@ I love sharing the lessons I've learned, the knowledge I've gained, and mentorin
 If you are looking for a contributor, please take note of my speaker rider below. You can reach out about hiring me on Twitter or send me an email.
 
 ## Past Presentations
+
+{% for talk in talks %}
+
+  <article>
+    <h3>
+      <a href="{{ talk.url | url }}">{{ talk.data.title }}</a>
+    </h3>
+  </article>
+{% endfor %}
 
 ## Speaker Rider
 
