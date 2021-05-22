@@ -421,11 +421,15 @@ ul {
   max-width: 100%;
 }
 .card .text {
-  padding: 0 20px 20px;
-  line-height: 0.5rem;
+  padding: 0 15px 15px;
+  font-weight: 700;
+  font-size: 0.75rem;
+}
+.card p {
+  color: gray;
 }
 .card h3 {
-  font-size: 1rem;
-  line-height: 1.5rem;
+  font-size: 1.25rem;
+  line-height: 2rem;
   padding-bottom: 0.5rem;
 }
