@@ -6,10 +6,10 @@ Layout Foundation
 
   grid-template-areas:
     "header header header"
-    "nav content side"
+    "jump content side"
     "footer footer footer";
 
-  grid-template-columns: 200px 1fr 200px;
+  grid-template-columns: 1fr 80ch 1fr;
   grid-template-rows: auto 1fr auto;
   grid-gap: 10px;
 
@@ -24,7 +24,7 @@ header {
   align-items: center;
 }
 nav {
-  grid-area: nav;
+  grid-area: header;
   margin-left: 0.5rem;
 }
 main {
@@ -36,21 +36,49 @@ aside {
 }
 footer {
   grid-area: footer;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  padding: 3rem;
+  text-align: center;
+  margin: 0 auto;
+  padding: 1.25rem 0 0 0;
+  width: 100%;
+  font-size: 1em;
   background-color: #303030;
   color: white;
+  font-family: sans-serif;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+.icon:hover {
+  filter: grayscale(100%) sepia(100%);
+}
+
+.footer__social {
+  padding: 0.3125rem;
+  margin-bottom: 0.75rem;
+}
+
+.footer__social a:not(:last-child) {
+  margin-right: 0.75rem;
+}
+
+.footer__legal {
+  padding: 0.3125rem;
+  color: grey;
+}
+.footer__statements {
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
 }
 
 @media (max-width: 768px) {
   .container {
     grid-template-areas:
       "header"
-      "nav"
+      "jump"
       "content"
       "side"
       "footer";
@@ -68,4 +96,16 @@ footer {
   aside {
     margin: 0;
   }
+  main {
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
+  }
+}
+.sr-only {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
 }
