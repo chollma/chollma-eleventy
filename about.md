@@ -8,7 +8,7 @@ canonical: https://cooperhollmaier.com/about/
 
 # About me
 
-I'm a technical SEO based in Tacoma, WA developing digital products that are fast, sustainable, and accessible for all.
+I'm a technical SEO based in Tacoma, WA. My current focus is developing digital products that are fast, sustainable, and accessible.
 
 I have an insatiable desire to learn more about myself, people, and the environment that shapes us. Whether it's curling up
 on the couch with a book on surveillance capitalism, exploring the trails and peaks of Washington, or competing in a trivia night

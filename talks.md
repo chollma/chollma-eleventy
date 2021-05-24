@@ -13,7 +13,7 @@ pagination:
 
 # Talks
 
-I love sharing the lessons I've learned, the knowledge I've gained, and mentoring others looking to start a career in search engine optimization, digital marketing, communications, or a related field.
+I love sharing the lessons I've learned and mentoring others looking to start a career in search engine optimization, digital marketing, communications, or a related field.
 
 If you are looking for a contributor, please take note of my speaker rider below. You can reach out about hiring me on Twitter or send me an email.
 
