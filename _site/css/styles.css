@@ -408,12 +408,12 @@ ul {
 .cards {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
   align-items: stretch;
   justify-content: space-evenly;
 }
 .card {
-  flex: 0 0 12.5rem;
-  margin: 12px;
+  flex: 0 0 5rem;
 }
 .card img {
   max-width: 100%;
