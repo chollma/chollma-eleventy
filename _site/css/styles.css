@@ -414,6 +414,8 @@ ul {
 }
 .card {
   flex: 0 0 5rem;
+  border-left: 1px solid gray;
+  margin-bottom: 1rem;
 }
 .card img {
   max-width: 100%;

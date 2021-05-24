@@ -20,7 +20,7 @@ pagination:
     <div class="text">
       <h3>{{ post.data.title }}</h3>
       <time datetime="{{ post.date | dateIso }}">{{ post.date | dateReadable }}</time>
-      <p>Create an ideal picnic with our favorite gear for outdoor meal time and day camping, </p>
+      <p>{{ post.data.desc }}</p>
     </div>
   </article>
   
