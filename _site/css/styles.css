@@ -461,3 +461,6 @@ ul {
   display: block;
   padding-bottom: 1.5rem;
 }
+.none {
+  text-decoration: none;
+}
