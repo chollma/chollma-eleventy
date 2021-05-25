@@ -11,7 +11,7 @@ pagination:
   alias: posts
 ---
 
-# Writing
+# Latest Posts
 
 <section class="cards">
 {% for post in posts %}

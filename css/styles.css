@@ -263,17 +263,17 @@ header a {
   text-decoration: none;
 }
 .logo {
-  font-size: 4rem;
+  font-size: 4.5rem;
   font-weight: 700;
   font-family: raleway;
-  padding-top: 0.5rem;
+  padding-top: 1rem;
   padding-bottom: 2rem;
 }
 nav {
   grid-area: header;
   margin-left: 0.5rem;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
+  border-top: 2px solid black;
+  border-bottom: 2px double black;
   text-transform: uppercase;
   text-align: center;
   align-self: stretch;
@@ -283,6 +283,7 @@ nav a {
   color: black;
   text-decoration: none;
   font-family: eb-garamond, serif;
+  font-weight: 500;
 }
 main {
   grid-area: content;
@@ -429,6 +430,7 @@ ul {
 .card p {
   padding-top: 0.5rem;
   font-weight: 500;
+  font-size: 0.9rem;
 }
 .card h3 {
   font-size: 1.25rem;
@@ -440,4 +442,16 @@ ul {
   color: gray;
   font-size: 0.75rem;
   font-weight: 500;
+}
+.index__img {
+  border-radius: 50%;
+  max-width: 50%;
+  display: block;
+
+  margin: 1rem auto 1rem auto;
+}
+.index__intro {
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
