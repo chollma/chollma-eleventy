@@ -464,3 +464,8 @@ ul {
 .none {
   text-decoration: none;
 }
+.email__form {
+  grid-area: side;
+  margin-top: 1.3rem;
+  margin-bottom: 1rem;
+}
