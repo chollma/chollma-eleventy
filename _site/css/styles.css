@@ -382,7 +382,7 @@ h3 {
   line-height: 3.6rem;
   letter-spacing: 0.016rem;
   font-weight: 600;
-  color: rgba(12, 11, 8, 0.75);
+  color: black;
 }
 h1 {
   font-size: 1.6rem;
@@ -414,8 +414,9 @@ ul {
 }
 .card {
   flex: 0 0 5rem;
-  border-left: 1px solid gray;
-  margin-bottom: 1rem;
+  padding: 0.625rem 1.25rem;
+  border-left: 2px solid #eee;
+  margin-bottom: 1.2rem;
 }
 .card img {
   max-width: 100%;
@@ -426,10 +427,17 @@ ul {
   font-size: 0.75rem;
 }
 .card p {
-  color: gray;
+  padding-top: 0.5rem;
+  font-weight: 500;
 }
 .card h3 {
   font-size: 1.25rem;
   line-height: 2rem;
-  padding-bottom: 0.5rem;
+  color: black;
+  border-bottom: solid #000;
+}
+.card__date {
+  color: gray;
+  font-size: 0.75rem;
+  font-weight: 500;
 }

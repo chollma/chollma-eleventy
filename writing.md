@@ -18,10 +18,9 @@ pagination:
 
 <article class="card">
     <div class="text">
-      <h3>{{ post.data.title }}</h3>
-      <time datetime="{{ post.date | dateIso }}">{{ post.date | dateReadable }}</time>
-      <p>{{ post.data.desc }}</p>
-    </div>
+    <time class="card__date" datetime="{{ post.date | dateIso }}">{{ post.date | dateReadable }}</time>
+    <h3 class="">{{ post.data.title }}</h3>
+    <p class="">{{ post.data.desc }}
   </article>
   
 {% endfor %}
