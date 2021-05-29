@@ -4,9 +4,12 @@
   "description": "Personal website rebuilt using eleventy",
   "main": "index.js",
   "scripts": {
-    "build": "npx eleventy",
-    "serve": "npx eleventy --serve",
-    "debug": "DEBUG=* npx eleventy",
+    "clean": "npx del dist",
+    "serve": "ELEVENTY_ENV=dev npx eleventy --serve",
+    "start": "npm run serve",
+    "build": "ELEVENTY_ENV=dev npx eleventy",
+    "build:prod": "ELEVENTY_ENV=prod npx eleventy",
+    "debug": "DEBUG=* npx eleventy"
   },
   "repository": {
     "type": "git",
