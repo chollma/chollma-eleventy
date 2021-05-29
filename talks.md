@@ -13,7 +13,7 @@ pagination:
 
 # Talks
 
-<img class="hero" src="https://embedwistia-a.akamaihd.net/deliveries/ebe991c56d5e832ee5b27671210de42c.jpg">
+<img class="hero" src="/assets/img/talks.jpg">
 
 I love sharing the lessons I've learned and mentoring others looking to start a career in search engine optimization, digital marketing, communications, or a related field.
 
