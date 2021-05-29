@@ -272,7 +272,7 @@ header a {
 nav {
   grid-area: header;
   margin-left: 0.5rem;
-  border-top: 2px solid black;
+  border-top: 2px double black;
   border-bottom: 2px double black;
   text-transform: uppercase;
   text-align: center;
