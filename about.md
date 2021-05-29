@@ -10,10 +10,11 @@ canonical: https://cooperhollmaier.com/about/
 
 <img class="hero" src="/assets/img/about.jpg">
 
-I'm a technical SEO based in Tacoma, WA. My current focus is developing digital products that are fast, sustainable, and accessible.
-
-I have an insatiable desire to learn more about myself, people, and the environment that shapes us. Whether it's curling up
-on the couch with a book on surveillance capitalism, exploring the trails and peaks of Washington, or competing in a trivia night
-over drinks with friends, I'm always itching for the next thing.
-
-Some would describe me as easy-going, others as a perpetual skeptic. I want to try new things, fail hard and make real change a reality.
+I'm a technical SEO based in Tacoma, WA.
+I have a deep passion for developing digital products that are fast, sustainable, and accessible by default.
+A recent transplant to the Pacific Northwest, you can find me, my wife and our two dogs exploring all that Washington as to offer.
+Whether it's a new local restaurant, hiking trail, or ski slope, I'm always down for adventure.\
+\
+I started my career in 2015 doing marketing for a transportation and gas-price signage company. An insatiable desire learn and move faster let me to the "agency-life", helping businesses small and large earn more visbility online.\
+\
+Today, I work along-side a talented team of in-house SEOs, at a large eCommerce retailer, bringing techncical SEO strategy to life.

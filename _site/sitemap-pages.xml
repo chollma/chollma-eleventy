@@ -3,43 +3,43 @@
 
   
     <url>
-      <loc> https://localhost:8080/about/</loc>
+      <loc> http://localhost:8080/about/</loc>
       <lastmod>2021-05-14T01:58:25.146Z</lastmod>
     </url>
   
   
     <url>
-      <loc> https://localhost:8080/</loc>
+      <loc> http://localhost:8080/</loc>
       <lastmod>2021-05-14T02:02:00.851Z</lastmod>
     </url>
   
   
     <url>
-      <loc> https://localhost:8080/talks/</loc>
+      <loc> http://localhost:8080/talks/</loc>
       <lastmod>2021-05-14T02:06:00.220Z</lastmod>
     </url>
   
   
     <url>
-      <loc> https://localhost:8080/writing/</loc>
+      <loc> http://localhost:8080/writing/</loc>
       <lastmod>2021-05-14T02:06:06.498Z</lastmod>
     </url>
   
   
     <url>
-      <loc> https://localhost:8080/contact/</loc>
+      <loc> http://localhost:8080/contact/</loc>
       <lastmod>2021-05-14T02:06:21.678Z</lastmod>
     </url>
   
   
     <url>
-      <loc> https://localhost:8080/privacy/</loc>
+      <loc> http://localhost:8080/privacy/</loc>
       <lastmod>2021-05-14T02:06:37.716Z</lastmod>
     </url>
   
   
     <url>
-      <loc> https://localhost:8080/accessibility/</loc>
+      <loc> http://localhost:8080/accessibility/</loc>
       <lastmod>2021-05-14T02:06:45.832Z</lastmod>
     </url>
   
