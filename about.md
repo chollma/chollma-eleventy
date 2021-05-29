@@ -17,4 +17,4 @@ Whether it's a new local restaurant, hiking trail, or ski slope, I'm always down
 \
 I started my career in 2015 doing marketing for a transportation and gas-price signage company. An insatiable desire learn and move faster let me to the "agency-life", helping businesses small and large earn more visbility online.\
 \
-Today, I work along-side a talented team of in-house SEOs, at a large eCommerce retailer, bringing techncical SEO strategy to life.
+Today I work along-side a talented team of in-house SEOs, at a large eCommerce retailer, bringing techncical SEO strategy to life.
