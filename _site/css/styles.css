@@ -326,7 +326,7 @@ footer a:hover {
 
 .footer__legal {
   padding: 0.3125rem;
-  color: grey;
+  color: #bdbdbd;
 }
 .footer__statements {
   padding-top: 0.3125rem;
@@ -440,7 +440,7 @@ ul {
   border-bottom: solid #000;
 }
 .card__date {
-  color: gray;
+  color: #545454;
   font-size: 0.75rem;
   font-weight: 500;
 }

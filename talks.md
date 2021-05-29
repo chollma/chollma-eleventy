@@ -13,7 +13,7 @@ pagination:
 
 # Talks
 
-<img class="hero" src="/assets/img/talks.jpg">
+<img class="hero" alt="Cooper Hollmaier standing in front of whiteboard" src="/assets/img/talks.jpg">
 
 I love sharing the lessons I've learned and mentoring others looking to start a career in search engine optimization, digital marketing, communications, or a related field.
 
