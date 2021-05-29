@@ -4,7 +4,7 @@
   "description": "Personal website rebuilt using eleventy",
   "main": "index.js",
   "scripts": {
-    "build": "npx eleventy",
+    "build": "npx eleventy ELEVENTY_ENV=prod",
     "serve": "npx eleventy --serve",
     "debug": "DEBUG=* npx eleventy",
     "clean": "npx del _site"
