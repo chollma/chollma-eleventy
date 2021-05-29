@@ -387,7 +387,9 @@ h3 {
   color: black;
 }
 h1 {
-  font-size: 1.6rem;
+  font-size: 2rem;
+  letter-spacing: 0.05em;
+  font-weight: 400;
 }
 h2 {
   font-size: 1.375rem;
@@ -433,15 +435,15 @@ ul {
   font-weight: 500;
   font-size: 0.9rem;
 }
-.card h3 {
-  font-size: 1.25rem;
+.card h2 {
+  font-size: 1.875rem;
   line-height: 2rem;
   color: black;
   border-bottom: solid #000;
 }
 .card__date {
   color: #545454;
-  font-size: 0.75rem;
+  font-size: 0.875rem;
   font-weight: 500;
 }
 .index__img {
@@ -471,5 +473,6 @@ ul {
   margin-bottom: 1rem;
 }
 p {
+  font-size: 1rem;
   margin-bottom: 1.5rem;
 }

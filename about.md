@@ -6,7 +6,7 @@ desc: Find out more about my career journey and things I've learned along the wa
 canonical: https://cooperhollmaier.com/about/
 ---
 
-# About me
+# About
 
 <img class="hero" alt="Cooper and Janessa standing high above a clear blue lake and mountainous landscape" src="/assets/img/about.jpg"/>
 
