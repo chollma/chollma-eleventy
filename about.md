@@ -8,7 +8,7 @@ canonical: https://cooperhollmaier.com/about/
 
 # About me
 
-<img class="hero" alt="Cooper and Janessa standing high above a clear blue lake and mountainous landscape"src="/assets/img/about.jpg">
+<img class="hero" alt="Cooper and Janessa standing high above a clear blue lake and mountainous landscape" src="/assets/img/about.jpg"/>
 
 I'm a technical SEO based in Tacoma, WA.
 I have a deep passion for developing digital products that are fast, sustainable, and accessible by default.
