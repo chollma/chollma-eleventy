@@ -1,7 +1,7 @@
 ---
 layout: base-layout.njk
 tags: ["page"]
-title: About | Cooper Hollmaier
+title: About
 desc: Find out more about my career journey and things I've learned along the way.
 canonical: https://cooperhollmaier.com/about/
 ---

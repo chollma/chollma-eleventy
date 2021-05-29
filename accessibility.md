@@ -1,7 +1,7 @@
 ---
 layout: base-layout.njk
 tags: ["page"]
-title: Accessibility | Cooper Hollmaier
+title: Accessibility
 desc: I believe in creating accessible and inclusive experiences. Learn more about what we're doing on cooperhollmaier.com.
 canonical: https://cooperhollmaier.com/accessibility/
 ---

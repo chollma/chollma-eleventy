@@ -1,7 +1,7 @@
 ---
 layout: base-layout.njk
 tags: ["page"]
-title: Privacy | Cooper Hollmaier
+title: Privacy
 desc: We never share, sell, or distribute your information to anyone. It's for internal use only.
 canonical: https://cooperhollmaier.com/privacy/
 ---

@@ -1,7 +1,7 @@
 ---
 layout: base-layout.njk
 tags: ["page"]
-title: Talks | Cooper Hollmaier
+title: Talks
 desc: Hire me to contribute to your next conference, webinar, or podcast!
 canonical: https://cooperhollmaier.com/talks/
 pagination:
