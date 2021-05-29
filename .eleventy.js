@@ -4,6 +4,7 @@ const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 moment.locale("en");
 
 module.exports = function (eleventyConfig) {
+  environment: process.env.ELEVENTY_ENV;
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
 
   eleventyConfig.addPassthroughCopy("assets");
