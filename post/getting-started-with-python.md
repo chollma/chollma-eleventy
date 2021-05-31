@@ -5,7 +5,7 @@ canonical: https://cooperhollmaier.com/post/getting-started-with-python/
 date: 2020-09-11
 ---
 
-Whether you're a software engineer, data scientist, or someone who wants to make tedious tasks easy, [Python](https://www.python.org/) might be the programming language you've been dreaming of. I recently started playing around with Python and I have to say that I'm impressed. It's easy to get rolling (especially if you're on a Mac) and I am amazed by all the things Python can help me do.
+<span class="firstcharacter">W</span>hether you're a software engineer, data scientist, or someone who wants to make tedious tasks easy, [Python](https://www.python.org/) might be the programming language you've been dreaming of. I recently started playing around with Python and I have to say that I'm impressed. It's easy to get rolling (especially if you're on a Mac) and I am amazed by all the things Python can help me do.
 
 In the paragraphs to follow, we'll walk through setting up the Python Integrated Development Environment (IDE) on your computer, what the IDE offers us as new developers, and introduce some programming lingo you will need to be familiar with.
 

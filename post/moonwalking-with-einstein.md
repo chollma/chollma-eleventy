@@ -5,9 +5,7 @@ canonical: https://cooperhollmaier.com/post/walking-with-einstein/
 date: 2021-01-17
 ---
 
-Last year was something.
-
-We saw the true nature of our country come into sharp undeniable focus. Systemic racism, public health, and polarization on a grand scale were just some of the things that demanded my attention more than my goal to read 50 books in 2020. I'm not mad about failing to meet my goal. I look back though, to try to remember the substance I read, and my memory fails me.
+<span class="firstcharacter">L</span>ast year was something. We saw the true nature of our country come into sharp undeniable focus. Systemic racism, public health, and polarization on a grand scale were just some of the things that demanded my attention more than my goal to read 50 books in 2020. I'm not mad about failing to meet my goal. I look back though, to try to remember the substance I read, and my memory fails me.
 
 As we round the corner and enter a new year, I won't let those issues that came to surface, sink back beneath into the murky depths of the great American attenion span. Rather, I'm committing here, to document the conversation unfolding in front of me, along with things I've learned through supplemental reading along the way.
 

@@ -5,7 +5,7 @@ canonical: https://cooperhollmaier.com/post/beneath-the-surface-visual-disabilit
 date: 2020-10-21
 ---
 
-The more you learn about people with disabilities, the more you too can be an advocate for change. Together, we can reframe the way we as a society think, build, and talk about inclusivity.
+<span class="firstcharacter">T</span>he more you learn about people with disabilities, the more you too can be an advocate for change. Together, we can reframe the way we as a society think, build, and talk about inclusivity.
 
 In the series of articles to follow, I will breakdown disability into 9 distinct categorizations . By dividing and conquering, we'll be able to gain a deeper understanding of the world. We'll spend time thinking about the challenges faced by real people. My hope is that in doing this is you will feel compelled to reexamine your own thinking and work to remove the physical and emotional barriers many people face.
 

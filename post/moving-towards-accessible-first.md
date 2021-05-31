@@ -5,7 +5,7 @@ canonical: https://cooperhollmaier.com/post/moving-towards-accessible-first/
 date: 2020-10-28
 ---
 
-I think we take our own experiences for granted. We assume that our friends have heard the latest soundbite. We assume they've streamed the latest album. We assume they’ll listen to a book on tape to keep them entertained on their cross-country road trip. The harsh reality is that the snippets of convenience most of us enjoy aren't always available to people with auditory disabilities.
+<span class="firstcharacter">I</span> think we take our own experiences for granted. We assume that our friends have heard the latest soundbite. We assume they've streamed the latest album. We assume they’ll listen to a book on tape to keep them entertained on their cross-country road trip. The harsh reality is that the snippets of convenience most of us enjoy aren't always available to people with auditory disabilities.
 
 We're not only talking about entertainment, though. Audio is part of our day-to-day functioning as working people and members of society. From how-to videos on YouTube, to educational lectures, to presidential debates on TV, we rely on soundbites to convey intent.
 

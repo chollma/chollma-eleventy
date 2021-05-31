@@ -334,34 +334,6 @@ footer a:hover {
   padding-bottom: 0.3125rem;
 }
 
-@media (max-width: 768px) {
-  .container {
-    grid-template-areas:
-      "header"
-      "content"
-      "side"
-      "footer";
-
-    grid-template-columns: 1fr;
-    grid-template-rows:
-      auto /* Header */
-      1fr /* Content */
-      minmax(75px, auto) /* Sidebar */
-      auto; /* Footer */
-  }
-
-  nav,
-  aside {
-    margin: 0;
-  }
-  main {
-    padding-left: 1.6rem;
-    padding-right: 1.6rem;
-  }
-  header {
-    justify-content: center;
-  }
-}
 .sr-only {
   position: absolute;
   left: -10000px;
@@ -389,11 +361,13 @@ h3 {
   color: black;
 }
 h1 {
-  color: rgb(41, 41, 41);
-  font-weight: 400;
-  font-size: 3rem;
-  line-height: 3.75rem;
-  letter-spacing: 0.011em;
+  word-break: normal;
+  font-size: 30px;
+  line-height: 36px;
+  width: 100%;
+  letter-spacing: -0.04px;
+  margin-bottom: 16px;
+  font-weight: 500;
 }
 h2 {
   font-weight: 500;
@@ -490,10 +464,68 @@ ul {
   margin-top: 1.3rem;
   margin-bottom: 1rem;
 }
+
 p {
-  font-family: eb garamond, serif;
-  font-weight: 400;
-  font-size: 1.1rem;
-  margin-top: 2em;
-  margin-bottom: -0.46em;
+  font-family: Raleway, sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  letter-spacing: 0.2px;
+  line-height: 24px;
+  overflow: hidden;
+  margin-top: 24px;
+  color: #1f1f1f;
+}
+
+@media (max-width: 768px) {
+  .container {
+    grid-template-areas:
+      "header"
+      "content"
+      "side"
+      "footer";
+
+    grid-template-columns: 1fr;
+    grid-template-rows:
+      auto /* Header */
+      1fr /* Content */
+      minmax(75px, auto) /* Sidebar */
+      auto; /* Footer */
+  }
+
+  nav,
+  aside {
+    margin: 0;
+  }
+  main {
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
+  }
+  header {
+    justify-content: center;
+  }
+}
+.firstcharacter {
+  color: black;
+  float: left;
+  font-family: Georgia;
+  font-size: 75px;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+}
+.post__title {
+  word-break: normal;
+  font-size: 30px;
+  line-height: 36px;
+  width: 100%;
+  letter-spacing: -0.04px;
+  margin-bottom: 16px;
+  font-weight: 500;
+}
+.post__date {
+  font-size: 12px;
+  letter-spacing: 0.2px;
+  color: #7a7a7a;
+  font-weight: 300;
 }

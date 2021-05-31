@@ -2,8 +2,8 @@
 layout: base-layout.njk
 ---
 
- <h1>{{ title}}</h1>
- <time datetime="{{ post.date | dateIso }}">{{ post.date | dateReadable }}</time>
+ <h1 class="post__title">{{ title}}</h1>
+ <span class="post__date">Published <time datetime="{{ post.date | dateIso }}">{{ post.date | dateReadable }}</time></span>
  {{ content | safe }}
 
  
