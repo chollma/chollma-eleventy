@@ -1,6 +1,9 @@
 ---
 title: The Age of Surveillance Capitalism
 desc:
+hero: /assets/img/age-surveillance-capitalism.jpg
+alt: Book cover image of The Age of Surveillance Capitalism by Shosana Zuboff on a black gradient background.
+credit: Goodreads
 canonical: https://cooperhollmaier.com/post/the-age-of-surveillance-capitalism/
 date: 2021-05-29
 ---
