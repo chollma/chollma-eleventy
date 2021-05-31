@@ -412,12 +412,7 @@ ol {
   font-weight: 500;
   font-size: 0.9rem;
 }
-.card h2 {
-  font-size: 1.875rem;
-  line-height: 2rem;
-  color: black;
-  border-bottom: solid #000;
-}
+
 .card__date {
   color: #545454;
   font-size: 0.875rem;
@@ -509,6 +504,7 @@ p {
   margin-bottom: 8px;
   font-weight: 500;
 }
+
 .post__date {
   font-size: 12px;
   letter-spacing: 0.2px;
