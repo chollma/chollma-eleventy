@@ -20,7 +20,7 @@ pagination:
     <div class="text">
     <time class="card__date" datetime="{{ post.date | dateIso }}">{{ post.date | dateReadable }}</time>
     <a class="none"href="{{ post.url }}"><h2 class="post__title">{{ post.data.title }}</h3></a>
-    <p class="">{{ post.data.desc }}
+    </div>
   </article>
   
   
