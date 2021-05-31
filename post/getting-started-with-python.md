@@ -1,6 +1,9 @@
 ---
 title: Getting Started with Python
 desc: Whether you're a software engineer, data scientist, or someone who wants to make tedious tasks easy, Python might be the programming language you've been dreaming of.
+hero: /assets/img/python.jpg
+alt: Man holding a sticky note with the word pythong written on it.
+credit: Hitesh Choudhary
 canonical: https://cooperhollmaier.com/post/getting-started-with-python/
 date: 2020-09-11
 ---
@@ -9,7 +12,7 @@ date: 2020-09-11
 
 In the paragraphs to follow, we'll walk through setting up the Python Integrated Development Environment (IDE) on your computer, what the IDE offers us as new developers, and introduce some programming lingo you will need to be familiar with.
 
-**Note:** the simple program we'll build in the [next article](https://cooperhollmaier.com/article/build-a-simple-program) can make it very easy to extract content from a webpage. It is important to be "good citizens of the web" and parse only information that we own or have permission to access.
+**Note:** the simple program we'll build in the [next article](/post/building-a-simple-program/) can make it very easy to extract content from a webpage. It is important to be "good citizens of the web" and parse only information that we own or have permission to access.
 
 Now that we've considered the ethics, let's unpack all the goodness Python has to offer.
 
@@ -112,4 +115,4 @@ Sometimes it's easier to work with information if we turn it into a string of te
 
 Now that you've completed the steps above to get the Python IDE installed on your machine, and you're familiar with some of the moving parts, let's use the methods, functions, and libraries we've learned to build something useful that will help you in your everyday job.
 
-We're going to [build a tool](https://cooperhollmaier.com/article/build-a-simple-program) to request a webpage and determine if the data returned to us meets a set of requirements we set.
+We're going to [build a tool](/post/building-a-simple-program/) to request a webpage and determine if the data returned to us meets a set of requirements we set.

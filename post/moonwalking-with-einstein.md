@@ -1,6 +1,7 @@
 ---
 title: Moonwalking with Einstein
 desc: In modern times, we're rewarded for our ability to navigate an ever expanding web of information systems and technologies.
+hero: /assets/img/moonwalking-hero.jpg
 canonical: https://cooperhollmaier.com/post/walking-with-einstein/
 date: 2021-01-17
 ---
