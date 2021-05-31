@@ -11,26 +11,13 @@ pagination:
   alias: talks
 ---
 
-# Talks
+# Latest Talks
 
 <img class="hero" alt="Cooper Hollmaier standing in front of whiteboard" src="/assets/img/talks.jpg">
 
 I love sharing the lessons I've learned and mentoring others looking to start a career in search engine optimization, digital marketing, communications, or a related field.
 
 If you are looking for a contributor, please take note of my speaker rider below. You can reach out about hiring me on Twitter or send me an email.
-
-## Past Talks
-
-{% for talk in talks %}
-
-  <article>
-  <ul>
-  <li>
-  <a href="{{ talk.url | url }}">{{ talk.data.title }}</a> ({{ talk.date | dateReadable }})
-  </li>
-</ul>
-  </article>
-{% endfor %}
 
 ## Speaker Rider
 
