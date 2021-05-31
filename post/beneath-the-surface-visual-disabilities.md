@@ -1,6 +1,9 @@
 ---
 title: Beneath the Surface
 desc: The more you learn about people with disabilities, the more you too can be an advocate for change.
+hero: /assets/img/surface.jpg
+alt: A golden sunset over the sea.
+credit: Brannon Naito
 canonical: https://cooperhollmaier.com/post/beneath-the-surface-visual-disabilities/
 date: 2020-10-21
 ---

@@ -1,6 +1,9 @@
 ---
 title: Talking about Disability
 desc: I look out at the world, and I care deeply about making it a more accessible and equitable place.
+hero: /assets/img/talking.jpg
+alt: A group of people sitting and talking at the end of a body of water.
+credit: Priscilla Du Preez
 canonical: https://cooperhollmaier.com/post/talking-about-disability/
 date: 2020-10-17
 ---

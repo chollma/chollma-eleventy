@@ -1,6 +1,9 @@
 ---
 title: Moving Towards Accessible First
 desc: I think we take our own experiences for granted. We assume that our friends have heard the latest soundbite.
+hero: /assets/img/accessible-first.jpg
+alt: A diverse group of people with their hands on the table.
+credit: Clay Banks
 canonical: https://cooperhollmaier.com/post/moving-towards-accessible-first/
 date: 2020-10-28
 ---
