@@ -1,11 +1,12 @@
 ---
 layout: base-layout.njk
 ---
-
+ <article>
  <h1 class="post__title">{{ title}}</h1>
  <span class="post__date">Published <time datetime="{{ date | dateIso }}">{{ date | dateReadable }}</time> </span>
  <img class="hero" alt="{{ alt }}" src="{{ hero }}">
  <span class="hero__caption">Credit: {{ credit }}</span>
+ </article>  
  {{ content | safe }}
 
  
