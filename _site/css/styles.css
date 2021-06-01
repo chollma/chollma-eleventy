@@ -503,6 +503,16 @@ p {
   margin-bottom: 8px;
   font-weight: 500;
 }
+.post__title__list {
+  word-break: normal;
+  font-size: 24px;
+  line-height: 36px;
+  width: 100%;
+  letter-spacing: -0.04px;
+  margin-bottom: 8px;
+  font-weight: 500;
+  color: black;
+}
 
 .post__date {
   font-size: 12px;
