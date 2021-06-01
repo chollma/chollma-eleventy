@@ -6,10 +6,10 @@ layout: base-layout.njk
  <span class="post__date">Published <time datetime="{{ date | dateIso }}">{{ date | dateReadable }}</time> </span>
  <img class="hero" alt="{{ alt }}" src="{{ hero }}">
  <span class="hero__caption">Credit: {{ credit }}</span>
- </article>  
  {{ content | safe }}
+ </article>  
 
- 
+
 {% set absoluteUrl = env.base.site + (page.url | replace('.html', '')) %}
 <script type="application/ld+json">
  {
