@@ -15,9 +15,13 @@ pagination:
 
 <img class="hero" alt="Cooper Hollmaier standing in front of whiteboard" src="/assets/img/talks.jpg">
 
-I love sharing the lessons I've learned and mentoring others looking to start a career in search engine optimization, digital marketing, communications, or a related field.
+I recently worked on a series with <a href="https://moz.com/blog/category/whiteboard-friday">Moz</a> in which we produced three videos investigating the intersection of accessibility and search engine optimization.
 
-If you are looking for a contributor, please take note of my speaker rider below. You can reach out about hiring me on Twitter or send me an email.
+- [Intro to Accessibility & SEO](/talk/intro-to-accessibility-seo/) (May 14, 2021)
+- [Accessibility & Content SEO](/talk/accessibility-content-seo/) (May 21, 2021)
+- [Accessibility & Technical SEO](/talk/accessibility-technical-seo/) (May 28, 2021)
+
+If you are looking for a contributor, please take note of my speaker rider below. You can reach out about hiring me on [Twitter](https://twitter.com/CooperHollmaier) or send me an [email](mailto:cooper@hollmaier.com).
 
 ## Speaker Rider
 
@@ -40,4 +44,4 @@ Before considering me as a contributor, please note the following guidelines bel
 
 ## Final Thoughts
 
-I really appreciate you taking the time to read through these points. I list these out because I want to speak at events that are inclusive, accessible, and represent the diverse perspectives around us. If you have any questions or disagree with any of the information above, please reach out and provide that feedback.
+I really appreciate you taking the time to read through these points. I list these out because I want to speak at events that are inclusive, accessible, and represent the diverse perspectives around us. If you have any questions or disagree with any of the information above, please [reach out](/contact/) and provide that feedback.

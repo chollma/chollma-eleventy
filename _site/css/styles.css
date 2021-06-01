@@ -271,8 +271,8 @@ header a {
 }
 nav {
   grid-area: header;
-  border-top: 2px double black;
-  border-bottom: 2px double black;
+  border-top: 2px double #545454;
+  border-bottom: 2px double #545454;
   text-transform: uppercase;
   text-align: center;
   width: 100%;
@@ -283,8 +283,7 @@ nav a {
   color: black;
   text-decoration: none;
   font-family: Raleway, sans-serif;
-
-  font-weight: 400;
+  font-weight: 500;
 }
 main {
   grid-area: content;
