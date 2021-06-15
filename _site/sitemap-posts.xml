@@ -1,46 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 
   
     <url>
       <loc> http://localhost:8080/post/getting-started-with-python/</loc>
       <lastmod>2020-09-11T00:00:00.000Z</lastmod>
+      <image:image>
+        <image:loc>
+          http://localhost:8080/assets/img/python.jpg
+        </image:loc>
+      </image:image>
     </url>
   
   
     <url>
       <loc> http://localhost:8080/post/building-a-simple-program/</loc>
       <lastmod>2020-09-12T00:00:00.000Z</lastmod>
+      <image:image>
+        <image:loc>
+          http://localhost:8080/assets/img/building-a-program.jpg
+        </image:loc>
+      </image:image>
     </url>
   
   
     <url>
       <loc> http://localhost:8080/post/talking-about-disability/</loc>
       <lastmod>2020-10-17T00:00:00.000Z</lastmod>
+      <image:image>
+        <image:loc>
+          http://localhost:8080/assets/img/talking.jpg
+        </image:loc>
+      </image:image>
     </url>
   
   
     <url>
       <loc> http://localhost:8080/post/beneath-the-surface-visual-disabilities/</loc>
       <lastmod>2020-10-21T00:00:00.000Z</lastmod>
+      <image:image>
+        <image:loc>
+          http://localhost:8080/assets/img/surface.jpg
+        </image:loc>
+      </image:image>
     </url>
   
   
     <url>
       <loc> http://localhost:8080/post/moving-towards-accessible-first/</loc>
       <lastmod>2020-10-28T00:00:00.000Z</lastmod>
+      <image:image>
+        <image:loc>
+          http://localhost:8080/assets/img/accessible-first.jpg
+        </image:loc>
+      </image:image>
     </url>
   
   
     <url>
       <loc> http://localhost:8080/post/moonwalking-with-einstein/</loc>
       <lastmod>2021-01-17T00:00:00.000Z</lastmod>
+      <image:image>
+        <image:loc>
+          http://localhost:8080/assets/img/moonwalking-hero.jpg
+        </image:loc>
+      </image:image>
     </url>
   
   
     <url>
       <loc> http://localhost:8080/post/the-age-of-surveillance-capitalism/</loc>
       <lastmod>2021-05-29T00:00:00.000Z</lastmod>
+      <image:image>
+        <image:loc>
+          http://localhost:8080/assets/img/age-surveillance-capitalism.jpg
+        </image:loc>
+      </image:image>
     </url>
   
 </urlset> 

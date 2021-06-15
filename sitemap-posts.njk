@@ -4,13 +4,18 @@ ignore: true
 permalink: sitemap-posts.xml
 ---
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 {# {{ collections.all | log }} #}
 {%- for item in collections.post %}
   {% if not item.data.ignore %}
     <url>
       <loc> {{env.base.site}}{{ item.url | replace('.html', '') }}</loc>
       <lastmod>{{ item.date | dateIso }}</lastmod>
+      <image:image>
+        <image:loc>
+          {{env.base.site}}{{item.data.hero}}
+        </image:loc>
+      </image:image>
     </url>
   {% endif %}
 {%- endfor %}
