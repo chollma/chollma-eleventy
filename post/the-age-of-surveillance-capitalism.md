@@ -1,6 +1,6 @@
 ---
 title: The Age of Surveillance Capitalism
-desc:
+desc: We're no longer part of the "reinvestment cycle" that promised to bring a democratized internet and free access.
 hero: /assets/img/age-surveillance-capitalism.jpg
 alt: Book cover of The Age of Surveillance Capitalism by Shosana Zuboff on a black gradient background.
 credit: Goodreads
