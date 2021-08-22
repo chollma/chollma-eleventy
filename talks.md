@@ -41,6 +41,7 @@ Before considering me as a contributor, please note the following guidelines bel
 - A publically accessible Code of Conduct is required. This document must declare your dedication to creating a safe space, clearly state which behaviors are expected and which are not tolerated, and provide a place for folks to report problems and seek assistance.
 - I won't be part of a white-majority, all-men lineup. I want to ensure underrepresented voices are included in the conversation.
 - Feel free to record me, but let me know ahead of time and know that I can only represent my personal views and not those of any company.
+- It's important to me that everyone has the opportunity to participate in the conversation. This means ensuring closed captioning, text alternatives, and American Sign Language (ASL) interpretation is available.
 
 ## Final Thoughts
 
