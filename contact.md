@@ -22,6 +22,7 @@ If you're interested in my contribution for your next podcast episode, conferenc
 <li><a title="Link opens YouTube in a new window" href="https://www.youtube.com/channel/UCWyuE3usgzzuPIdmR_6iRWA" target="_blank" rel="noopener noreferrer">YouTube</a></li>
 <li><a title="Link opens Moz in a new window" href="https://moz.com/community/q/user/cooper-hollmaier" target="_blank" rel="noopener noreferrer">Moz</a></li>
 <li><a title="Link opens GoodReads in a new window" href="https://www.goodreads.com/user/show/106400124-cooper-hollmaier" target="_blank" rel="noopener noreferrer">GoodReads</a></li>
+<li><a title="Link opens Notist in a new window" href="https://noti.st/cooperhollmaier" target="_blank" rel="noopener noreferrer">Notist</a></li>
 </ul>
 
 ## Be the first to know when I post
