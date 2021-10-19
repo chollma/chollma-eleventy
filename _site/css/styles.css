@@ -382,6 +382,12 @@ ul {
   margin-left: 2.5rem;
   font-size: 15px;
 }
+.ul-testimonial {
+  padding-top: 0;
+  font-size: 15px;
+  margin-left: 0;
+  list-style: none;
+}
 ol {
   padding-left: 2.5rem;
 }

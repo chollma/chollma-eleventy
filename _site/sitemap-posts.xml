@@ -78,5 +78,16 @@
       </image:image>
     </url>
   
+  
+    <url>
+      <loc> http://localhost:8080/post/inbox-waitlist-uncluttering-your-mind/</loc>
+      <lastmod>2021-09-12T00:00:00.000Z</lastmod>
+      <image:image>
+        <image:loc>
+          http://localhost:8080/assets/img/inbox-waitlist.jpg
+        </image:loc>
+      </image:image>
+    </url>
+  
 </urlset> 
 
