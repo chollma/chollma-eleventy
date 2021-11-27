@@ -24,9 +24,3 @@ If you're interested in my contribution for your next podcast episode, conferenc
 <li><a title="Link opens GoodReads in a new window" href="https://www.goodreads.com/user/show/106400124-cooper-hollmaier" target="_blank" rel="noopener noreferrer">GoodReads</a></li>
 <li><a title="Link opens Notist in a new window" href="https://noti.st/cooperhollmaier" target="_blank" rel="noopener noreferrer">Notist</a></li>
 </ul>
-
-## Be the first to know when I post
-
-Sign-up to be notified below.
-
-<script async data-uid="600a67eca8" src="https://prodigious-pioneer-1471.ck.page/600a67eca8/index.js"></script>
