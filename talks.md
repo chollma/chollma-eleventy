@@ -15,7 +15,7 @@ pagination:
 
 <img class="hero" alt="Cooper Hollmaier standing in front of whiteboard" src="/assets/img/talks.jpg">
 
-I recently worked on a series with <a href="https://moz.com/blog/category/whiteboard-friday">Moz</a> in which we produced three videos investigating the intersection of accessibility and search engine optimization.
+I recently worked on a series with <a href="https://moz.com/blog/category/whiteboard-friday">Moz</a>. We produced three videos investigating the intersection of accessibility and search engine optimization.
 
 - [Intro to Accessibility & SEO](/talk/intro-to-accessibility-seo/) (May 14, 2021)
 - [Accessibility & Content SEO](/talk/accessibility-content-seo/) (May 21, 2021)
@@ -32,7 +32,7 @@ Before considering me as a contributor, please note the following guidelines bel
 ### Hosting
 
 - I ask that travel to and from the event is provided.
-- I ask that lodging be provided for the full length of the event.
+- I ask that lodging be provided for the entire length of the event.
 - I ask for a ticket to the event. I want to engage with other attendees and see other talks!
 - I ask for a speaker fee because I value my time (and hope you do too). Preparing for talks and events takes time away from my other obligations.
 
@@ -45,4 +45,4 @@ Before considering me as a contributor, please note the following guidelines bel
 
 ## Final Thoughts
 
-I really appreciate you taking the time to read through these points. I list these out because I want to speak at events that are inclusive, accessible, and represent the diverse perspectives around us. If you have any questions or disagree with any of the information above, please [reach out](/contact/) and provide that feedback.
+I appreciate you taking the time to read through these points. I list these out because I want to speak at events that are inclusive, accessible, and represent the diverse perspectives around us. If you have any questions or disagree with any of the information above, please [reach out](/contact/) and provide that feedback.
