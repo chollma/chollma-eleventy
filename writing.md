@@ -13,16 +13,17 @@ pagination:
 
 # Latest Posts
 
-<section class="cards">
+<ul class="cards">
 {% for post in posts %}
 
-<article class="card">
+<li class="card">
+    <a class="none"href="{{ post.url }}">
+    <img alt="" src="{{ post.data.hero}}"/>
     <div class="text">
-    <time class="card__date" datetime="{{ post.date | dateIso }}">{{ post.date | dateReadable }}</time>
-    <a class="none"href="{{ post.url }}"><h2 class="post__title__list">{{ post.data.title }}</h3></a>
-    </div>
-  </article>
-  
-  
+        <h2 class="post__title__list">{{ post.data.title }}</h3>
+        <time class="card__date" datetime="{{ post.date | dateIso }}">{{ post.date | dateReadable }}</time>
+      </div>
+    </a>
+  </li>
 {% endfor %}
 </section>

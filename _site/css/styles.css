@@ -392,17 +392,20 @@ ol {
   padding-left: 2.5rem;
 }
 .cards {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 12.5rem);
+  grid-auto-rows: auto;
+  grid-gap: 1rem;
   align-items: stretch;
   justify-content: space-evenly;
+  list-style: none;
+  margin-left: 0;
 }
 .card {
-  flex: 0 0 5rem;
-  padding: 0.625rem 1.25rem;
-  border-left: 2px solid #eee;
-  margin-bottom: 1.2rem;
+  border: 2px solid #545454;
+  border-radius: 4px;
+  padding: 0.5rem;
+  width: 100%;
 }
 .card img {
   max-width: 100%;
@@ -489,6 +492,10 @@ p {
   header {
     justify-content: center;
   }
+  .cards {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    margin-left: 0;
+  }
 }
 .firstcharacter {
   color: black;
@@ -511,12 +518,12 @@ p {
 }
 .post__title__list {
   word-break: normal;
-  font-size: 24px;
-  line-height: 36px;
+  font-size: 18px;
+  line-height: 24px;
   width: 100%;
-  letter-spacing: -0.04px;
+  letter-spacing: -0.1px;
   margin-bottom: 8px;
-  font-weight: 500;
+  font-weight: 700;
   color: black;
 }
 
