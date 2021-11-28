@@ -17,7 +17,7 @@ pagination:
 {% for post in posts %}
 
 <li class="card">
-    <a class="none"href="{{ post.url }}">
+    <a class="none"href="{{ post.data.canonical}}">
     <img alt="" src="{{ post.data.hero}}"/>
     <div class="text">
         <h2 class="post__title__list">{{ post.data.title }}</h3>
