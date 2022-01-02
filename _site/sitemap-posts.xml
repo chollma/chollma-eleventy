@@ -89,5 +89,16 @@
       </image:image>
     </url>
   
+  
+    <url>
+      <loc> http://localhost:8080/post/convincing-business-invest-accessibility/</loc>
+      <lastmod>2022-01-02T00:00:00.000Z</lastmod>
+      <image:image>
+        <image:loc>
+          http://localhost:8080/assets/img/convincing-business-invest-accessibility.jpg
+        </image:loc>
+      </image:image>
+    </url>
+  
 </urlset> 
 
