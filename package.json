@@ -9,7 +9,8 @@
     "start": "npm run serve",
     "build": "ELEVENTY_ENV=dev npx eleventy",
     "build:prod": "ELEVENTY_ENV=prod npx eleventy",
-    "debug": "DEBUG=* npx eleventy"
+    "debug": "DEBUG=* npx eleventy",
+    "watch:sass": "npx sass sass:_site/css --watch"
   },
   "repository": {
     "type": "git",
@@ -26,5 +27,7 @@
     "@11ty/eleventy-navigation": "^0.2.0",
     "moment": "^2.29.1"
   },
-  "dependencies": {}
+  "dependencies": {
+    "sass": "^1.47.0"
+  }
 }
