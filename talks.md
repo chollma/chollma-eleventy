@@ -15,8 +15,9 @@ pagination:
 
 <img class="hero" alt="Cooper Hollmaier standing in front of whiteboard" src="/assets/img/talks.jpg">
 
-I recently worked on a series with <a href="https://moz.com/blog/category/whiteboard-friday">Moz</a>. We produced three videos investigating the intersection of accessibility and search engine optimization.
+## Recent Talks
 
+- [Accessibility Strategies for Retail Organizations](https://accessibility.deque.com/retail-accessibility-strategies-webinar) (February 22, 2022)
 - [Intro to Accessibility & SEO](/talk/intro-to-accessibility-seo/) (May 14, 2021)
 - [Accessibility & Content SEO](/talk/accessibility-content-seo/) (May 21, 2021)
 - [Accessibility & Technical SEO](/talk/accessibility-technical-seo/) (May 28, 2021)
