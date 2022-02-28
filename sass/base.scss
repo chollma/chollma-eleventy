@@ -1,234 +1,30 @@
-/* Fonts */
-/* raleway-regular - latin */
-@font-face {
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 400;
-  src: local(""),
-    url("../assets/fonts/raleway-v19-latin-regular.woff2") format("woff2"),
-    /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("../assets/fonts/raleway-v19-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
+@use "fonts";
 
-/* raleway-500 - latin */
-@font-face {
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 500;
-  src: local(""),
-    url("../assets/fonts/raleway-v19-latin-500.woff2") format("woff2"),
-    /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("../assets/fonts/raleway-v19-latin-500.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
+/* Colors */
+$brand-color: #405e58;
+/* Text */
+/* Background */
+/* Border */
+/* Icon */
+/* Button */
+/* Input */
+/* Link */
 
-/* raleway-600 - latin */
-@font-face {
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 600;
-  src: local(""),
-    url("../assets/fonts/raleway-v19-latin-600.woff2") format("woff2"),
-    /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("../assets/fonts/raleway-v19-latin-600.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
+/* Breakpoints */
+$breakpoint-xs: 0;
+$breakpoint-sm: 768px;
+$breakpoint-m: 992px;
+$breakpoint-lg: 1232px;
 
-/* raleway-700 - latin */
-@font-face {
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 700;
-  src: local(""),
-    url("../assets/fonts/raleway-v19-latin-700.woff2") format("woff2"),
-    /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("../assets/fonts/raleway-v19-latin-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-
-/* raleway-800 - latin */
-@font-face {
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 800;
-  src: local(""),
-    url("../assets/fonts/raleway-v19-latin-800.woff2") format("woff2"),
-    /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("../assets/fonts/raleway-v19-latin-800.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-
-/* raleway-900 - latin */
-@font-face {
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 900;
-  src: local(""),
-    url("../assets/fonts/raleway-v19-latin-900.woff2") format("woff2"),
-    /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("../assets/fonts/raleway-v19-latin-900.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-
-/* raleway-500italic - latin */
-@font-face {
-  font-family: "Raleway";
-  font-style: italic;
-  font-weight: 500;
-  src: local(""),
-    url("../assets/fonts/raleway-v19-latin-500italic.woff2") format("woff2"),
-    /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("../assets/fonts/raleway-v19-latin-500italic.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-
-/* raleway-600italic - latin */
-@font-face {
-  font-family: "Raleway";
-  font-style: italic;
-  font-weight: 600;
-  src: local(""),
-    url("../assets/fonts/raleway-v19-latin-600italic.woff2") format("woff2"),
-    /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("../assets/fonts/raleway-v19-latin-600italic.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-
-/* raleway-700italic - latin */
-@font-face {
-  font-family: "Raleway";
-  font-style: italic;
-  font-weight: 700;
-  src: local(""),
-    url("../assets/fonts/raleway-v19-latin-700italic.woff2") format("woff2"),
-    /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("../assets/fonts/raleway-v19-latin-700italic.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-
-/* raleway-800italic - latin */
-@font-face {
-  font-family: "Raleway";
-  font-style: italic;
-  font-weight: 800;
-  src: local(""),
-    url("../assets/fonts/raleway-v19-latin-800italic.woff2") format("woff2"),
-    /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("../assets/fonts/raleway-v19-latin-800italic.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-
-/* raleway-900italic - latin */
-@font-face {
-  font-family: "Raleway";
-  font-style: italic;
-  font-weight: 900;
-  src: local(""),
-    url("../assets/fonts/raleway-v19-latin-900italic.woff2") format("woff2"),
-    /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("../assets/fonts/raleway-v19-latin-900italic.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-
-/* eb-garamond-regular - latin */
-@font-face {
-  font-family: "EB Garamond";
-  font-style: normal;
-  font-weight: 400;
-  src: local(""),
-    url("../assets/fonts/eb-garamond-v15-latin-regular.woff2") format("woff2"),
-    /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("../assets/fonts/eb-garamond-v15-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-
-/* eb-garamond-500 - latin */
-@font-face {
-  font-family: "EB Garamond";
-  font-style: normal;
-  font-weight: 500;
-  src: local(""),
-    url("../assets/fonts/eb-garamond-v15-latin-500.woff2") format("woff2"),
-    /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("../assets/fonts/eb-garamond-v15-latin-500.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-
-/* eb-garamond-600 - latin */
-@font-face {
-  font-family: "EB Garamond";
-  font-style: normal;
-  font-weight: 600;
-  src: local(""),
-    url("../assets/fonts/eb-garamond-v15-latin-600.woff2") format("woff2"),
-    /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("../assets/fonts/eb-garamond-v15-latin-600.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-
-/* eb-garamond-700 - latin */
-@font-face {
-  font-family: "EB Garamond";
-  font-style: normal;
-  font-weight: 700;
-  src: local(""),
-    url("../assets/fonts/eb-garamond-v15-latin-700.woff2") format("woff2"),
-    /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("../assets/fonts/eb-garamond-v15-latin-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-
-/* eb-garamond-800 - latin */
-@font-face {
-  font-family: "EB Garamond";
-  font-style: normal;
-  font-weight: 800;
-  src: local(""),
-    url("../assets/fonts/eb-garamond-v15-latin-800.woff2") format("woff2"),
-    /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("../assets/fonts/eb-garamond-v15-latin-800.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-
-/* eb-garamond-italic - latin */
-@font-face {
-  font-family: "EB Garamond";
-  font-style: italic;
-  font-weight: 400;
-  src: local(""),
-    url("../assets/fonts/eb-garamond-v15-latin-italic.woff2") format("woff2"),
-    /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("../assets/fonts/eb-garamond-v15-latin-italic.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-
-/* eb-garamond-500italic - latin */
-@font-face {
-  font-family: "EB Garamond";
-  font-style: italic;
-  font-weight: 500;
-  src: local(""),
-    url("../assets/fonts/eb-garamond-v15-latin-500italic.woff2") format("woff2"),
-    /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("../assets/fonts/eb-garamond-v15-latin-500italic.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-
-/* eb-garamond-600italic - latin */
-@font-face {
-  font-family: "EB Garamond";
-  font-style: italic;
-  font-weight: 600;
-  src: local(""),
-    url("../assets/fonts/eb-garamond-v15-latin-600italic.woff2") format("woff2"),
-    /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("../assets/fonts/eb-garamond-v15-latin-600italic.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-
-/* eb-garamond-700italic - latin */
-@font-face {
-  font-family: "EB Garamond";
-  font-style: italic;
-  font-weight: 700;
-  src: local(""),
-    url("../assets/fonts/eb-garamond-v15-latin-700italic.woff2") format("woff2"),
-    /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("../assets/fonts/eb-garamond-v15-latin-700italic.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-
-/* eb-garamond-800italic - latin */
-@font-face {
-  font-family: "EB Garamond";
-  font-style: italic;
-  font-weight: 800;
-  src: local(""),
-    url("../assets/fonts/eb-garamond-v15-latin-800italic.woff2") format("woff2"),
-    /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("../assets/fonts/eb-garamond-v15-latin-800italic.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
+/* Spacing*/
+$space-eighth-x: 0.2rem;
+$space-quarter-x: 0.4rem;
+$space-half-x: 0.8rem;
+$space-three-quarter-x: 1.2rem;
+$space-one-x: 1.6rem;
+$space-one-and-a-half-x: 2.4rem;
+$space-two-x: 3.2rem;
+$space-four-x: 6.4rem;
 
 /* 
   Layout Foundation
@@ -243,7 +39,7 @@
 
   grid-template-columns: 1fr 70ch 1fr;
   grid-template-rows: auto 1fr auto;
-  grid-gap: 10px;
+  grid-gap: 15px;
 
   height: 100vh;
 }
@@ -259,7 +55,7 @@ header {
   justify-content: space-between;
 }
 header a {
-  color: #405e58;
+  color: $brand-color;
   text-decoration: none;
 }
 .logo {
@@ -386,16 +182,37 @@ li {
   padding-top: 0.5rem;
   font-size: 0.9375rem;
 }
-
+ol {
+  padding-left: 2.5rem;
+}
+p {
+  font-family: Raleway, sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  letter-spacing: 0.2px;
+  line-height: 24px;
+  overflow: hidden;
+  margin-top: 24px;
+  color: #1f1f1f;
+}
+nav,
+aside {
+  margin: 0;
+}
+main {
+  padding-left: 1.6rem;
+  padding-right: 1.6rem;
+}
+header {
+  justify-content: center;
+}
 .ul-testimonial {
   padding-top: 0;
   font-size: 15px;
   margin-left: 0;
   list-style: none;
 }
-ol {
-  padding-left: 2.5rem;
-}
+
 .cards {
   display: grid;
   grid-template-columns: repeat(auto-fill, 12.5rem);
@@ -459,18 +276,7 @@ ol {
   margin-bottom: 1rem;
 }
 
-p {
-  font-family: Raleway, sans-serif;
-  font-size: 15px;
-  font-weight: 300;
-  letter-spacing: 0.2px;
-  line-height: 24px;
-  overflow: hidden;
-  margin-top: 24px;
-  color: #1f1f1f;
-}
-
-@media (max-width: 768px) {
+@media (max-width: $breakpoint-sm) {
   .container {
     grid-template-areas:
       "header"
@@ -486,17 +292,6 @@ p {
       auto; /* Footer */
   }
 
-  nav,
-  aside {
-    margin: 0;
-  }
-  main {
-    padding-left: 1.6rem;
-    padding-right: 1.6rem;
-  }
-  header {
-    justify-content: center;
-  }
   .cards {
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     margin-left: 0;
