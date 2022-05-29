@@ -1,8 +1,14 @@
 ---
 layout: base-layout.njk
 ---
- <article>
+
+<header>
+<div class="profile">
  <h1 class="post__title">{{ title}}</h1>
+</div>
+</header>
+ <article class="container">
+
  <span class="post__date">Published <time datetime="{{ date | dateIso }}">{{ date | dateReadable }}</time> </span>
  <img class="hero" alt="{{ alt }}" src="{{ hero }}">
  <span class="hero__caption">Credit: {{ credit }}</span>
