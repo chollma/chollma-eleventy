@@ -86,7 +86,10 @@ svg{
   justify-content: var(--justify,center);
 }
 .icon-button {
-  display: inline-grid;
+  aspect-ratio: 1;
+font-size: 1.5rem;
+width: 1.5rem;
+display: inline-grid;
 line-height: 1.1;
 place-content: center;
 text-align: center;
@@ -137,7 +140,7 @@ padding-top: max(5vh,4rem);
 place-content: center;
 }
 header a {
-  color: $brand-color;
+  color: white;
   text-decoration: none;
 }
 header p small {

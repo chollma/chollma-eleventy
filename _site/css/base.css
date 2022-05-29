@@ -239,6 +239,9 @@ svg {
 }
 
 .icon-button {
+  aspect-ratio: 1;
+  font-size: 1.5rem;
+  width: 1.5rem;
   display: inline-grid;
   line-height: 1.1;
   place-content: center;
@@ -293,7 +296,7 @@ header {
 }
 
 header a {
-  color: #405e58;
+  color: white;
   text-decoration: none;
 }
 
