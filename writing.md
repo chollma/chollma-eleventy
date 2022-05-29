@@ -25,8 +25,8 @@ pagination:
     <a class="none" href="{{ post.data.canonical}}">
     <div class="text">
         <h2 class="post__title__list">{{ post.data.title }}</h3>
-        <p> {{post.data.desc}} </p>
         <time class="card__date" datetime="{{ post.date | dateIso }}">{{ post.date | dateReadable }}</time>
+        <p> {{post.data.desc}} </p>
       </div>
     </a>
   </li>

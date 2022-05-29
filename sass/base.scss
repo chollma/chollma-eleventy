@@ -29,6 +29,8 @@ $space-four-x: 6.4rem;
 /* 
   Layout Foundation
   */
+
+  
   ol[role="list"], ul[role="list"]{
     list-style: none;
     padding: 0;
@@ -397,4 +399,18 @@ aside {
 
 .skip-to-content-link:focus {
   transform: translateY(0%);
+}
+
+@media (min-width: 50rem) {
+  .profile {
+   grid-template-columns:1fr minmax(50ch,1fr);
+  }
+ 
+ .profile img {
+  border-radius:50%;
+  place-self:center;
+  width:min(80%,30vw);
+
+ }
+
 }
