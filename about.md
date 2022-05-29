@@ -10,10 +10,7 @@ canonical: https://cooperhollmaier.com/about/
 
 <img class="hero" alt="Cooper and Janessa standing high above a clear blue lake and mountainous landscape" src="/assets/img/about.jpg"/>
 
-I'm a technical product manager based in Tacoma, WA. I have a deep passion for developing digital products that are fast, sustainable, and accessible by default.\
-\
-A recent transplant to the Pacific Northwest, you can find me, my wife, and our two dogs exploring all that Washington has to offer.
-Whether it's a new local restaurant, hiking trail, or ski slope, we're always down for an adventure.\
+I'm a technical product manager based in Cedar Rapids, Iowa. I have a deep passion for developing digital products that are fast, sustainable, and accessible by default.\
 \
 I started my career in 2015 as a marketing coordinator for a transportation and gas-price signage company. An insatiable desire to learn and move faster led me to the "agency-life," helping small and large businesses earn more visibility online.\
 \
