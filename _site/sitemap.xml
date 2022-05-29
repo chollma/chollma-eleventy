@@ -2,15 +2,15 @@
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
    <sitemap>
       <loc>http://localhost:8080/sitemap-pages.xml</loc>
-      <lastmod>2022-05-29T16:13:24.404Z</lastmod>
+      <lastmod>2022-05-29T17:05:04.614Z</lastmod>
    </sitemap>
    <sitemap>
       <loc>http://localhost:8080/sitemap-posts.xml</loc>
-      <lastmod>2022-05-29T16:13:24.404Z</lastmod>
+      <lastmod>2022-05-29T17:05:04.614Z</lastmod>
    </sitemap>
      <sitemap>
       <loc>http://localhost:8080/sitemap-talks.xml</loc>
-      <lastmod>2022-05-29T16:13:24.404Z</lastmod>
+      <lastmod>2022-05-29T17:05:04.614Z</lastmod>
    </sitemap>
 
 </sitemapindex>

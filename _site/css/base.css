@@ -392,7 +392,7 @@ h1 {
   letter-spacing: -0.04px;
   margin-bottom: 16px;
   font-weight: 500;
-  font-family: eb garamond, serif;
+  font-family: Raleway, sans-serif;
 }
 
 h2 {
@@ -455,14 +455,10 @@ aside {
 }
 
 .cards {
+  grid-gap: 2rem;
   display: grid;
-  grid-template-columns: repeat(auto-fill, 12.5rem);
-  grid-auto-rows: auto;
-  grid-gap: 1rem;
-  align-items: stretch;
-  justify-content: space-evenly;
-  list-style: none;
-  margin-left: 0;
+  grid-template-columns: repeat(auto-fit, minmax(30ch, 1fr));
+  margin-top: 3rem;
 }
 
 .card {
@@ -486,6 +482,7 @@ aside {
   padding-top: 0.5rem;
   font-weight: 500;
   font-size: 0.9rem;
+  padding-bottom: 1.5rem;
 }
 
 .card__date {

@@ -18,14 +18,14 @@ pagination:
 </header>
 <article class="container">
 
-<ul class="cards">
+<ul class="cards container" role="list">
 {% for post in posts %}
 
 <li class="card">
-    <a class="none"href="{{ post.data.canonical}}">
-    <img alt="" src="{{ post.data.hero}}"/>
+    <a class="none" href="{{ post.data.canonical}}">
     <div class="text">
         <h2 class="post__title__list">{{ post.data.title }}</h3>
+        <p> {{post.data.desc}} </p>
         <time class="card__date" datetime="{{ post.date | dateIso }}">{{ post.date | dateReadable }}</time>
       </div>
     </a>
