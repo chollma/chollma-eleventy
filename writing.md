@@ -1,7 +1,7 @@
 ---
 layout: base-layout.njk
 tags: ["page"]
-title: Writing
+title: Latest Posts
 desc: Read blog posts, how-to guides, and experiences from me.
 canonical: https://cooperhollmaier.com/writing/
 pagination:
@@ -13,7 +13,7 @@ pagination:
 
 <header>
 <div class="profile">
-<h1> Latest Posts </h1>
+<h1> {{title}}</h1>
 </div>
 </header>
 <article class="container">

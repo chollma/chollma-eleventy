@@ -1,7 +1,7 @@
 ---
 layout: base-layout.njk
 tags: ["page"]
-title: Talks
+title: Latest Talks
 desc: Hire me to contribute to your next conference, webinar, or podcast!
 canonical: https://cooperhollmaier.com/talks/
 pagination:
@@ -13,7 +13,7 @@ pagination:
 
 <header>
 <div class="profile">
-<h1> Latest Talks </h1>
+<h1> {{title}}</h1>
 </div>
 </header>
 <article class="container">

@@ -8,7 +8,7 @@ canonical: https://cooperhollmaier.com/contact/
 
 <header>
 <div class="profile">
-<h1> Contact </h1>
+<h1> {{title}}</h1>
 </div>
 </header>
 <article class="container">
