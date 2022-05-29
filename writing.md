@@ -11,7 +11,12 @@ pagination:
   alias: posts
 ---
 
-# Latest Posts
+<header>
+<div class="profile">
+<h1> Latest Posts </h1>
+</div>
+</header>
+<article class="container">
 
 <ul class="cards">
 {% for post in posts %}
@@ -27,3 +32,4 @@ pagination:
   </li>
 {% endfor %}
 </section>
+</article>

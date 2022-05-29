@@ -11,7 +11,12 @@ pagination:
   alias: talks
 ---
 
-# Latest Talks
+<header>
+<div class="profile">
+<h1> Latest Talks </h1>
+</div>
+</header>
+<article class="container">
 
 <img class="hero" alt="Cooper Hollmaier standing in front of whiteboard" src="/assets/img/talks.jpg">
 
@@ -47,3 +52,5 @@ Before considering me as a contributor, please note the following guidelines bel
 ## Final Thoughts
 
 I appreciate you taking the time to read through these points. I list these out because I want to speak at events that are inclusive, accessible, and represent the diverse perspectives around us. If you have any questions or disagree with any of the information above, please [reach out](/contact/) and provide that feedback.
+
+</article>

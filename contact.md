@@ -6,7 +6,12 @@ desc: Reach out and connect with me!
 canonical: https://cooperhollmaier.com/contact/
 ---
 
-# Contact
+<header>
+<div class="profile">
+<h1> Contact </h1>
+</div>
+</header>
+<article class="container">
 
 Thank you for stopping by!
 

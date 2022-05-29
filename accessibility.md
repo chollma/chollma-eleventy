@@ -6,6 +6,8 @@ desc: I believe in creating accessible and inclusive experiences. Learn more abo
 canonical: https://cooperhollmaier.com/accessibility/
 ---
 
+<article class="container">
+
 # Accessibility Statement
 
 I'm committed to ensuring that everyone visting CooperHollmaier.com feels welcome and included. I am continually improving the user experience for everyone, and applying the relevant accessibility standards.
