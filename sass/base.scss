@@ -29,19 +29,10 @@ $space-four-x: 6.4rem;
 /* 
   Layout Foundation
   */
-.container {
-  display: grid;
-
-  grid-template-areas:
-    "header header header"
-    "jump content side"
-    "footer footer footer";
-
-  grid-template-columns: 1fr 70ch 1fr;
-  grid-template-rows: auto 1fr auto;
-  grid-gap: 15px;
-
-  height: 100vh;
+.container { 
+margin-left: auto;
+margin-right: auto;
+width: min(80ch,100vw - 2rem);
 }
 
 header {
@@ -277,20 +268,7 @@ header {
 }
 
 @media (max-width: $breakpoint-sm) {
-  .container {
-    grid-template-areas:
-      "header"
-      "content"
-      "side"
-      "footer";
-
-    grid-template-columns: 1fr;
-    grid-template-rows:
-      auto /* Header */
-      1fr /* Content */
-      minmax(75px, auto) /* Sidebar */
-      auto; /* Footer */
-  }
+  
 
   .cards {
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
